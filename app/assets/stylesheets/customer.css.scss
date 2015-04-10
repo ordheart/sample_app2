@@ -166,3 +166,30 @@ input, textarea, select, .uneditable-input {
   margin-bottom: 15px;
   @include box_sizing;
 }
+
+.new_user {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#error_explanation {
+  color: #f00;
+  ul {
+    list-style: none;
+    margin: 0 0 18px 0;
+  }
+}
+
+//.field_with_errors {
+//  @extend .control-group;
+//  @extend .error;
+//}
+//
+//.control-group {
+//
+//}
+//
+//.error {
+//
+//}
