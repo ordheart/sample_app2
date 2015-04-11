@@ -37,6 +37,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 gem 'bootstrap-sass'
 
+#create user gem bag
+gem 'faker', '1.0.1'
+#create pager
+gem 'will_paginate', '~> 3.0.5'
+gem 'bootstrap-will_paginate'
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'guard-rspec'
